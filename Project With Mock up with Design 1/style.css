@@ -1,152 +1,145 @@
-*{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: #edf1fd;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #edf1fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-li{
-    list-style: none;
-    cursor: pointer;
+li {
+  list-style: none;
+  cursor: pointer;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-button
-{
-    background-color: rgb(18, 155, 155);
-    padding: 4px 10px;
-    cursor: pointer;
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-weight: 600;
-    width: fit-content;
+button {
+  background-color: rgb(18, 155, 155);
+  padding: 4px 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 600;
+  width: fit-content;
 }
 
-button:hover{
-    background-color: white;
-    color: black;
-    border: 1px solid  rgb(18, 155, 155); 
+button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(18, 155, 155);
 }
 
-nav{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
 }
-nav .logo{
-    font-weight: 600;
-    font-size: 25px;
+nav .logo {
+  font-weight: 600;
+  font-size: 25px;
 }
-nav ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    font-weight: 400;
-}
-
-nav ul li:hover{
-    font-weight: 600;
-    font-size: 15px;
-    text-decoration: underline;
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-weight: 400;
 }
 
-.search-field{
-    display: flex;
-    gap: 5px;
+nav ul li:hover {
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.search-field {
+  display: flex;
+  gap: 5px;
 }
 
 input {
-    padding: 4px 10px;
+  padding: 4px 10px;
 }
 
-.hero-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0 0 90px;
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 90px;
 }
 
-.hero-section-left h1{
-    font-size: 40px;
-    margin-bottom: 20px;
-    font-weight: 700;
+.hero-section-left h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
-.hero-section-left h1 span{
-    color: rgb(18, 155, 155);
-    font-weight: 900;
-    font-size: 2.5rem;
+.hero-section-left h1 span {
+  color: rgb(18, 155, 155);
+  font-weight: 900;
+  font-size: 2.5rem;
 }
 
-.hero-section-left p{
-    font-weight: 500;
+.hero-section-left p {
+  font-weight: 500;
 }
 
-
-.hero-section-left p span{
-    font-weight: 500;
-    font-size: 18px;
-    color: rgb(18, 155, 155);
+.hero-section-left p span {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(18, 155, 155);
 }
 
-.hero-section-right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
-    /* gap: 30px; */
+.hero-section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  /* gap: 30px; */
 }
 
-.hero-section-right img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+.hero-section-right img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
-.hero-section-right-btn{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-
+.hero-section-right-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 0;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
 }
 
-footer p{
-    font-weight: 500px;
-    
+footer p {
+  font-weight: 500px;
 }
 
 footer ul {
-    display: flex;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
-
-
-
