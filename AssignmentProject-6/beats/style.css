@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+/* removing the default css of a tags */
+a {
+  text-decoration: none;
+}
+
+/* removing the default css of li tags */
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0 15vw;
+}
