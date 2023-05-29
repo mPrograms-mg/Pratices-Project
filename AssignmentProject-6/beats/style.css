@@ -21,3 +21,94 @@ li {
 body {
   margin: 0 15vw;
 }
+
+/* Nav Style */
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+nav img {
+  width: 25px;
+  height: 25px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+
+nav ul li a {
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
+nav ul li:first-child a {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav-right-section {
+  display: flex;
+  align-items: center;
+}
+.nav-right-section button {
+  background: #02020d;
+  border-radius: 8px;
+  /* font-weight: 300; */
+  font-size: 14px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+/* main style */
+main {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+  position: relative;
+}
+
+.mainImg {
+  width: 230px;
+  position: relative;
+  margin-top: -200px;
+  left: 70px;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+.onEarImg {
+  width: 250px;
+  margin-left: 100;
+}
+
+.main h1 {
+  font-weight: 500;
+  font-size: 46px;
+  margin-bottom: 25px;
+}
+
+.main h4 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.main p {
+  width: 70%;
+  font-size: 15px;
+  font-weight: 400;
+  color: #bdc0c2;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
